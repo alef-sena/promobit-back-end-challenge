@@ -49,7 +49,8 @@ Os valores serão fornecidos pelo [proprietário do projeto](alefs07@gmail.com).
 No diretório raiz do projeto, execute o seguinte comando para iniciar os contêineres:
 
 ```bash
-docker-compose up -d
+docker compose build
+docker compose up -d
 ```
 
 Isso irá:
